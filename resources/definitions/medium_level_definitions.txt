@@ -1,0 +1,79 @@
+
+# Level 1
+# Single block direct hit
+
+
+START_LEVEL
+level_name:Oriel Level!
+ball_velocities:150,5 120,6 130,5 140,8 170,9 120,5
+background:image(background_images/oriel.jpg)
+paddle_speed:15
+paddle_width:160
+block_definitions:definitions/oriel_level_block.txt
+blocks_start_x:20
+blocks_start_y:80
+row_height:25
+num_blocks:180
+START_BLOCKS
+ooooohrrrrrhiheeeeeehlhhhhhh
+ohhhohrhhhrhihehhhhhhlhhhhhh
+ohhhohrrrrrhhhehhhhhhlhhhhhh
+ohhhohrrhhhhiheeeeeehlhhhhhh
+ohhhohrhrhhhihehhhhhhlhhhhhh
+ohhhohrhhrhhihehhhhhhlhhhhhh
+ooooohrhhhrhiheeeeeehlllllll
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Complicated pattern
+
+START_LEVEL
+level_name:barcelona level!
+ball_velocities:150,5 120,6 130,5 140,8 170,9 120,5
+background:image(background_images/messi.jpg)
+paddle_speed:15
+paddle_width:250
+block_definitions:definitions/barcelona_blocks.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:34
+START_BLOCKS
+-
+------zzz------
+-----lllll-----
+---lllllllll---
+---zzzzzzzzz---
+-----zzzzz-----
+------lll------
+
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# The good old final four level with an upgraded background
+
+START_LEVEL
+level_name:liora level!
+ball_velocities:150,5 120,6 130,5 140,8 170,9 120,5
+background:image(background_images/liora.jpg)
+paddle_speed:15
+paddle_width:160
+block_definitions:definitions/lioraBlocks.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:72
+START_BLOCKS
+-
+-
+lhhhhhiihooooohrrrrhaaaaa
+lhhhhhhhhohhhohrhhrhahhha
+lhhhhhiihohhhohrrrrhaaaaa
+lhhhhhiihohhhohrrhhhahhha
+lhhhhhiihohhhohrhrhhahhha
+lllllhiihooooohrhhrhahhha
+
+END_BLOCKS
+END_LEVEL
